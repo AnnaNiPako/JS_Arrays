@@ -13,3 +13,17 @@ function task2()
     let sum=arr.filter(index=>(index>0&&index<10)).reduce((sum,elem)=>sum+elem,0);
     console.log(sum);
 }
+
+function task3()
+{
+    let arr=Array.from(Array(4),()=>{return Math.round(Math.random()*20)});
+    console.log(arr.toString());
+    let isEven=arr.every(elem=>elem%2==0);
+    console.log(isEven);
+}
+
+function isChetn(arr)
+{
+    return arr.every(elem=>elem%2==0);
+}
+
