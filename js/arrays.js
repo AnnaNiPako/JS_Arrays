@@ -52,3 +52,12 @@ function getNewArray()
 }
 
 // Задача 5
+
+function srArifm(arr)
+{
+    let srar=arr.reduce((srar,elem)=>srar+elem,0);
+    srar=(srar/arr.length).toFixed(1);
+    console.log(srar);
+}
+
+
